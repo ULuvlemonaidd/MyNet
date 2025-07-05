@@ -17,3 +17,8 @@ This version allows cybersecurity enthusiasts to simulate HTTP flood scenarios d
 
 Download Commands 
 
+  git clone https://github.com/ULuvlemonaidd/MyNet
+ 
+  cd MyNet
+
+ python myNet.py
