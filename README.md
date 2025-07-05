@@ -22,3 +22,8 @@ Download Commands
   cd MyNet
 
  python myNet.py
+
+
+
+
+![Screenshot 2025-07-05 2 37 11 AM](https://github.com/user-attachments/assets/14eb80f7-ff5c-41e4-b6ab-d9e2c1718d0b)
