@@ -26,4 +26,5 @@ Download Commands
 
 
 
-![Screenshot 2025-07-05 2 37 11 AM](https://github.com/user-attachments/assets/14eb80f7-ff5c-41e4-b6ab-d9e2c1718d0b)
+<img width="519" height="368" alt="Screenshot 2025-08-01 5 27 48 PM" src="https://github.com/user-attachments/assets/a53abe91-163c-431a-8884-6e5fe9993c3e" />
+
